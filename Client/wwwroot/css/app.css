@@ -61,9 +61,9 @@ a, .btn-link {
     color: white;
 }
 
-    .blazor-error-boundary::after {
-        content: "An error has occurred."
-    }
+.blazor-error-boundary::after {
+    content: "An error has occurred."
+}
 
 .loading-progress {
     position: relative;
@@ -73,13 +73,13 @@ a, .btn-link {
     margin: 20vh auto 1rem auto;
 }
 
-    .loading-progress circle {
-        fill: none;
-        stroke: #e0e0e0;
-        stroke-width: 0.6rem;
-        transform-origin: 50% 50%;
-        transform: rotate(-90deg);
-    }
+.loading-progress circle {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 0.6rem;
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+}
 
         .loading-progress circle:last-child {
             stroke: #1b6ec2;
@@ -100,4 +100,80 @@ a, .btn-link {
 
 code {
     color: #c02d76;
+}
+
+.darker-border-checkbox.form-check-input {
+    border-color: #929292;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+.in-a-class p {
+    background-color: greenyellow;
+}
+.green-background {
+    background-color: greenyellow;
+    color: white;
+}
+@media (min-width: 100px)
+{
+    .full-block {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.full-screen-hero {
+    width: 100%;
+    height: 25rem;
+    display: block;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiBxOpayy7fxPI-AoCa5uJg4HJy3ZYg3oz2_qx70VEqKeSyqp1cnk4FDo_o6q5ti_bEyM4LSS-fyarjUQWLUsPyigOFjyuJ-WFnysME1-33pZDff4_gDgAwjKkXwzSMDEX9-7Rce1HlXzq/s400/medical_mask_tsuuki.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.look-good {
+    background-color: wheat;
+    padding: 1rem;
+    min-width: 8rem;
+    max-height: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.85;
+}
+.block-row {
+    background-color: #dda0dd;
+    height: 20rem;
+    margin: 0 2rem;
+    display: flex;
+}
+.block {
+    width: 100%;
+    height: 100%;
+    margin: 0.5rem;
+    text-align: center;
+    align-content: center;
+}
+.long-text {
+    margin: 1.5rem 2.5rem;
+    height: 6rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+#d-none {
+    display: none;
+}
+#d-block {
+    display: block;
 }
