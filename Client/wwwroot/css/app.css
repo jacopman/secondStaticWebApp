@@ -179,3 +179,9 @@ code {
 #d-block {
     display: block;
 }
+#self-portrait {
+    height: 12em;
+}
+#resume {
+    display: flexbox;
+}
