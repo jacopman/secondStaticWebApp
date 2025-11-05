@@ -1,7 +1,6 @@
 .page {
     position: relative;
     display: flex;
-    flex-direction: column;
 }
 
 main {
@@ -74,4 +73,9 @@ main {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
+}
+#navigation {
+    /* background-color: aqua; */
+    border-bottom: solid 0.1rem;
+    box-shadow: 3rem;
 }
