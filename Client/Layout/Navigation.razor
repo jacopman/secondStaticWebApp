@@ -1,0 +1,20 @@
+        <div class="main-nav-link">
+            <NavLink id="home-icon" href="" Match="NavLinkMatch.All">Jacob Nielson</NavLink>
+        </div>
+        <div id="nav-links" class="nav-bar">
+            <NavLink id="main-links" class="nav-item px-4" href="resume">Resume</NavLink>
+            <NavLink id="main-links" class="nav-item px-4" href="tables">Tables</NavLink>
+            <NavLink id="main-links" class="nav-item px-4" href="clone">Clone</NavLink>
+            <NavLink id="main-links" class="nav-item px-4" href="api">API</NavLink>
+            <NavLink id="main-links" class="nav-item px-4" href="experiment">Experiment</NavLink>
+        </div>
+
+@code {
+    private bool collapseNavMenu = true;
+    private string? navMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
