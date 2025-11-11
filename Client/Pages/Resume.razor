@@ -1,9 +1,9 @@
 ﻿@page "/resume"
 
 <PageTitle>resume</PageTitle>
-
-<iframe src="Resume_Jacob_Nielson.pdf" style="width: 90%;"></iframe>
-
+<div id="resume-comparison">
+    <embed src="Resume_Jacob_Nielson.pdf" alt="" width="90%" height="1000rem">
+</div>
 @code {
     private int currentCount = 0;
 
@@ -12,3 +12,15 @@
         currentCount++;
     }
 }
+
+<style>
+    #resume-comparison {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #embedded-resume {
+        @* width: 90%; *@
+        height: max-content;
+    }
+</style>

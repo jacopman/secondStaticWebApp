@@ -1,6 +1,7 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #efefef;
+    color: #a9a9a9;
     font-family: 'Montserrat';
 }
 
@@ -8,9 +9,9 @@ h1:focus {
     outline: none;
 }
 
-a, .btn-link {
+/* a, .btn-link {
     color: #0071c1;
-}
+} */
 
 .btn-primary {
     color: #fff;
