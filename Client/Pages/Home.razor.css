@@ -41,13 +41,15 @@
     margin: 0;
 }
 
-#resume-body {
+.section-block {
     background-color: white;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
+.section-block h2 {
+    color: #ff3b3f;
+}
 #resume-about-me {
     color: #1b6ec2;
     margin-top: 0;
